@@ -3,7 +3,7 @@ you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
 body {
-  margin: 0;
+  margin: 8px;
   background: #eee;
   font-family: Besley, serif;
 }
@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  flex:0;
 }
 
 .profile-image {
@@ -27,14 +30,17 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-right: 8px;
 }
 
 button {
+  margin-left: auto;
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin-right: 8px;
 }
 
 a {
@@ -44,5 +50,8 @@ a {
 }
 
 ul {
+  display: flex;
+  gap: 8px;
   list-style-type: none;
+  padding: 0;
 }
